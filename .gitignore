@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+MAGFiLO_1.0_Kaggle_2026/
+data/
+results.csv
+outputs/
+checkpoints/retrained/

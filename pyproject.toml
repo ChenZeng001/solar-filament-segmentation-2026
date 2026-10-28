@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools==70.2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solar-filament-segmentation"
+version = "1.0.0"
+description = "Final Swin-Tiny Mask2Former solar filament instance segmentation submission"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+packages = ["tools"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
